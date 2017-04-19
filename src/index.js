@@ -1,0 +1,1 @@
+export PunnettSquare from './punnett';
