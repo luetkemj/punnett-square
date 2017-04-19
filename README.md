@@ -1,5 +1,7 @@
 # Punnett Square [![Build Status](https://travis-ci.org/luetkemj/punnett-square.svg?branch=master)](https://travis-ci.org/luetkemj/punnett-square)
 
+[![NPM](https://nodei.co/npm/punnett-square.svg?downloads=true)](https://nodei.co/npm/punnett-square/)
+
 A Punnett Square Calculator
 
 ## Getting started
