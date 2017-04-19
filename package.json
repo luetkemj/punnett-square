@@ -1,15 +1,15 @@
 {
-  "name": "punnet-square",
+  "name": "punnett-square",
   "version": "1.0.0",
   "description": "A Punnett Square Calculator",
   "repository": {
     "type": "git",
-    "url": "https://github.com/luetkemj/punnet-square.git"
+    "url": "https://github.com/luetkemj/punnett-square.git"
   },
   "author": "luetkemj",
   "license": {
     "type": "MIT",
-    "url": "https://github.com/luetkemj/punnet-square/raw/master/LICENSE"
+    "url": "https://github.com/luetkemj/punnett-square/raw/master/LICENSE"
   },
   "main": "build/index.js",
   "scripts": {
