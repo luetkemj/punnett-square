@@ -1,6 +1,6 @@
 {
   "name": "punnet-square",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A Punnett Square Calculator",
   "repository": {
     "type": "git",
@@ -13,22 +13,20 @@
   },
   "main": "build/index.js",
   "scripts": {
+    "build": "npm run lint && babel src -d build",
     "clean:build": "rimraf build",
     "clean:node_modules": "rimraf node_modules",
     "clean": "npm run clean:build && npm run clean:node_modules",
-    "reinstall": "npm run clean && npm install",
     "lint:eslint": "eslint .",
     "lint": "npm run lint:eslint",
-    "build": "npm run lint && babel src -d build",
-    "production-build": "npm run build && npm run clean:node_modules && npm install --production",
-    "production": "NODE_ENV=production node ./build/index.js",
+    "prepublish": "npm run build",
+    "reinstall": "npm run clean && npm install",
     "test:mocha": "NODE_ENV=test ./node_modules/.bin/mocha --compilers js:babel-core/register --recursive test/**",
     "test:watch": "NODE_ENV=test ./node_modules/.bin/mocha --compilers js:babel-core/register --recursive --watch test/**",
     "test": "npm run lint && npm run test:mocha"
   },
   "dependencies": {
     "babel-preset-stage-3": "6.24.1",
-    "debug-caller": "2.2.0",
     "lodash": "4.17.4"
   },
   "devDependencies": {
