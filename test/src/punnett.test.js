@@ -1,6 +1,6 @@
 import should from 'should';
 import * as _ from 'lodash';
-import { PunnettSquare } from '../../src';
+import PunnettSquare from '../../src';
 
 const TRAITS = [
   'black',

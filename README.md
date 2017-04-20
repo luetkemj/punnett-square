@@ -13,7 +13,7 @@ A Punnett Square Calculator
 **create a new class instance of PunnettSquare**
 
 ```javascript
-import { PunnettSquare } from 'punnett-square';
+import PunnettSquare from 'punnett-square';
 
 // traits should be ordered from most dominant to least
 const TRAITS = ['black', 'brown', 'blonde', 'red'];

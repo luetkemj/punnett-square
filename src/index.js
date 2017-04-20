@@ -1,1 +1,1 @@
-export PunnettSquare from './punnett';
+export default from './punnett';
