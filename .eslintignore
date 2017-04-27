@@ -1,3 +1,4 @@
-node_modules
-build
 .git
+build
+coverage
+node_modules
