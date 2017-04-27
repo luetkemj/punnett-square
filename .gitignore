@@ -1,4 +1,5 @@
 .DS_Store
+build
+coverage
 npm-debug.log
 node_modules/
-build
